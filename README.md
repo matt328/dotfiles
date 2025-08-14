@@ -9,6 +9,13 @@ There might be a dotfile or two in here eventually, but it's more just notes for
 - Git.Git
 - Starship
 - k9s
+- Kubernetes.kubectl
+- Krew
+- kubectx
+- kubens
+- Microsoft.Azure.Kubelogin@0.1.9
+- Amazon.AWSCLI
+- eza-community.eza
 
 ### Configuration
 
@@ -17,7 +24,7 @@ There might be a dotfile or two in here eventually, but it's more just notes for
   - Settings -> Defaults -> Appearance
     - sane color schema
     - JetBrainsMonoNL Nerd Font 11pt
-  - Add `Invoke-Expression (&starship init powershell)` to `$PROFILE`. The file probably won't exist and we'll have to create it.
+  - Copy the powershell profile into `$PROFILE`
 - k9s
   - Launch once to create config dir in `$LOCALAPPDATA%\k9s`
   - Copy the contents of `k9s` into `"env:LOCALAPPDATA\k9s`
