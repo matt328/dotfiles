@@ -28,3 +28,12 @@ There might be a dotfile or two in here eventually, but it's more just notes for
 - k9s
   - Launch once to create config dir in `$LOCALAPPDATA%\k9s`
   - Copy the contents of `k9s` into `"env:LOCALAPPDATA\k9s`
+
+## Linux
+
+- zellij
+  - Copy `zellij/config.kdl` into `~/.config/zellij/config.kdl`
+
+- nvim
+  - install nvim
+  - `git clone git@github.com:matt328/nvim ~/.config/nvim`
